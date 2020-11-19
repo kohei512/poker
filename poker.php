@@ -1,8 +1,4 @@
 <?php
-/**
- * ポーカーのルール判定クラス
- * このファイルに問題はありません
- */
 class Poker
 {
     private $poker;

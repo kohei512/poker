@@ -1,8 +1,4 @@
 <?php
-/**
- * 動作クラス
- * 問題①に回答して下さい
- */
 class Operate
 {
     /**
@@ -42,7 +38,6 @@ class Operate
         }
 
         // 山札の残りを保存
-        // 問題① 配った手札を覗いた残りの山札を、$_SESSION['rest']に代入して下さい。
         $_SESSION['rest'] = $stock;
 
         return $hand;
